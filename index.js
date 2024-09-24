@@ -28,19 +28,19 @@ $(document).one("keydown",function loadGame(event){
         
         setTimeout(function(){
             $("#level-title").html("3");
-        } ,500)
+        } ,0)
     
         setTimeout(function(){
             $("#level-title").html("2");
-        } ,1500)
+        } ,1000)
     
         setTimeout(function(){
             $("#level-title").html("1");
-        } ,2500)
+        } ,2000)
         
         setTimeout(function(){
             nextSequence();
-        } ,3500)
+        } ,3000)
     }
 });
 
