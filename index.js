@@ -71,7 +71,7 @@ function animatePress(currentColour){
 // check answer callback function
 function checkAnswer(currentLevel){
     
-    if(gamePattern[currentLevel] === userClickedPattern[currentLevel] && gamePattern[level] === userClickedPattern[level]){
+    if(gamePattern[currentLevel] === userClickedPattern[currentLevel]){
         console.log("success")
         setTimeout(function(){
         nextSequence();
